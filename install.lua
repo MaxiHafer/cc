@@ -5,7 +5,6 @@ if #args == 0 then
     return
 end
 
-for arg in #args do
-    print("installing program: "..arg)
-    return
+for i, url in ipairs(args) do
+    print ("Updating "..url)
 end
